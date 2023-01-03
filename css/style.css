@@ -1,0 +1,25 @@
+body {
+    padding-top: 56px;
+}
+
+.jumbotron {
+    background: url('../images/hero.jpg') no-repeat center;
+}
+.btn-primary {
+    background-color: #c60063;
+    border-color: #c60063;
+}
+
+.display-3 {
+    color: #fff;
+}
+
+.pb-4 {
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border-color: #c60063;
+    color: #c60063;
+}
