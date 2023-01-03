@@ -2,7 +2,7 @@
 
 ## Author
 
-[Ester-Ndunge](https://github.com/ENdunge)
+[Esther-Ndunge](https://github.com/ENdunge)
 
 ## Description
 
@@ -10,7 +10,7 @@ This project is a web application for Delani studio that shows details about the
 
 ## Screenshot
 
-<img src="https://raw.githubusercontent.com/ENdunge/delani-studio/master/images/delani.PNG" width="900px" height="440px">
+<img src="https://raw.githubusercontent.com/ENdunge/delani-studio/main/images/delani.PNG" width="900px" height="440px">
 
 ## Live Page
 
