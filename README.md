@@ -14,6 +14,8 @@ This project is a web application for Delani studio that shows details about the
 
 ## Live Page
 
+https://endunge.github.io/delani-studio/
+
 ## Installation / Setup instruction
 
 - Open Terminal {Ctrl+Alt+T}
@@ -30,7 +32,6 @@ This project is a web application for Delani studio that shows details about the
 - [CSS](https://github.com/topics/css3)
 - [Bootstrap](https://github.com/topics/bootstrap)
 - [jQuery](https://github.com/topics/javascript)
-- markdown
 
 ## Known Bugs
 
