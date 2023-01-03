@@ -5,6 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Delani Studio</title>
    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <link href="css/style.css" rel="stylesheet">
    
@@ -51,53 +52,116 @@
     </header>
 
     <section id="services" class="container">
-        <h2 class="display-4 text-center mt-5 mb-3">Our Services</h2>
+        <h2 class="display-4 text-center mt-5 mb-3">What We Do</h2>
         
         <div class="row text-center">
            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                 <img class="card-img-top" src="images/design.png" alt="Design">
-                 <div class="card-body">
+              <div class="card ">
+                <div class="card-footer py-4" id="design-image" onclick="toggleDesign();">
+                    <p  class="btn btn-secondary">Design <i class="fa fa-desktop"></i></p>
+                 </div>
+                 
+                 <div class="card-body" id="design">
+                    <img class="card-img-top" src="images/design.png" alt="Design">
                     <h4 class="card-title">Design</h4>
                     <p class="card-text">Deliver the best user experience 
                     with our carefully designed responsive websites and applications!</p>
                  </div>
-                 <div class="card-footer py-4">
-                    <a href="#" class="btn btn-secondary">See portfolio &raquo;</a>
-                 </div>
+                 
               </div>
            </div>
-           
+
            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                 <img class="card-img-top" src="images/development.png" alt="Development">
-                 <div class="card-body">
-                    <h4 class="card-title">Development</h4>
-                       <p class="card-text">You need software that works on every device. 
-                       Leverage the latest technologies and the most powerful tools!</p>
-                 </div>
-                 <div class="card-footer py-4">
-                    <a href="#" class="btn btn-secondary">See projects &raquo;</a>
-                 </div>
-              </div>
-           </div>
-           
-           <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                 <img class="card-img-top" src="images/analytics.png" alt="Analytics">
-                 <div class="card-body">
-                    <h4 class="card-title">Analytics</h4>
-                    <p class="card-text">Consult our experts to set up proper goals and 
+            <div class="card ">
+              <div class="card-footer py-4" id="development-image" onclick="toggleDevelopment();">
+                  <p  class="btn btn-secondary">Development <i class="fa fa-css3"></i></p>
+               </div>
+               
+               <div class="card-body" id="development">
+                  <img class="card-img-top" src="images/development.png" alt="Design">
+                  <h4 class="card-title">Development</h4>
+                  <p class="card-text">You need software that works on every device. 
+                    Leverage the latest technologies and the most powerful tools!</p>
+               </div>
+               
+            </div>
+         </div>
+
+         <div class="col-md-4 mb-4">
+            <div class="card ">
+              <div class="card-footer py-4" id="analytics-image" onclick="toggleAnalytics();">
+                  <p  class="btn btn-secondary">Analytics <i class="fa fa-line-chart"></i></p>
+               </div>
+               
+               <div class="card-body" id="analytics">
+                  <img class="card-img-top" src="images/analytics.png" alt="Design">
+                  <h4 class="card-title">Analytics</h4>
+                  <p class="card-text">Consult our experts to set up proper goals and 
                     find the best stack for your next application!</p>
-                 </div>
-                 <div class="card-footer py-4">
-                    <a href="#" class="btn btn-secondary">See testimonials &raquo;</a>
-                 </div>
-              </div>
-           </div>
-        </div>
+               </div>
+               
+            </div>
+         </div>
+           
+    
      </section>
 
+     <section class="content-section" id="portfolio">
+        <div class="container px-4 px-lg-5">
+            <div class="content-section-heading text-center">
+                <h2 class="display-4 text-center mt-5 mb-3">Portfolio</h2>
+                <h3 class="text-center mt-5 mb-3">Recent Projects</h3>
+            </div>
+            <div class="row gx-0">
+                <div class="col-lg-6 mb-3">
+                    <a class="portfolio-item" href="#!">
+                        <div class="caption" id="stationery">
+                            <div class="caption-content">
+                                <div class="h2">Stationary</div>
+                                <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="images/analytics.png" alt="..." />
+                    </a>
+                </div>
+                <div class="col-lg-6 mb-3">
+                    <a class="portfolio-item" href="#!">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">Ice Cream</div>
+                                <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="images/analytics.png" alt="..." />
+                    </a>
+                </div>
+                <div class="col-lg-6 mb-3">
+                    <a class="portfolio-item" href="#!">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">Strawberries</div>
+                                <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="images/analytics.png" alt="..." />
+                    </a>
+                </div>
+                <div class="col-lg-6 mb-3">
+                    <a class="portfolio-item" href="#!">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">Workspace</div>
+                                <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="images/analytics.png" alt="..." />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
      <section class="container-fluid text-center py-4 mt-4" id="contact">
         <div class="container contact-form">
             <h2 class="display-4 pb-4 my-4">Get in touch with us today!</h2>
@@ -111,21 +175,21 @@
                <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" required/>
                         </div>
                         <div class="form-group">
-                            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" required/>
                         </div>
                         <div class="form-group">
-                            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" required/>
                         </div>
                         <div class="form-group">
-                            <input type="submit" name="btnSubmit" class="btn btn-primary btn-lg mb-4" value="Send Message" />
+                            <input type="submit" name="btnSubmit" class="btn btn-primary btn-lg mb-4" value="Send Message" required/>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;" required></textarea>
                         </div>
                     </div>
                 </div>
@@ -138,7 +202,7 @@
            <p class="text-center">Copyright &copy; 2022 Delani Studio</p>
         </div>
      </footer>
-
+     <script src="js/scripts.js"></script>
        <script src="js/jquery.min.js"></script>
        <script src="js/bootstrap.bundle.min.js"></script>
    </body>
