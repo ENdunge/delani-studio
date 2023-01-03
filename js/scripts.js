@@ -1,7 +1,43 @@
 window.onload = function () {
   $("#design").hide();
   $("#development").hide();
-  $("#analytics").hide("1500");
+  $("#analytics").hide();
+  $("#nairobi-bridge-overlay").hide();
+  $("#china-bridge-overlay").hide();
+  $("#japan-bridge-overlay").hide();
+  $("#mexico-bridge-overlay").hide();
+
+  $("#nairobi-bridge")
+    .mouseover(function () {
+      $("#nairobi-bridge-overlay").show();
+    })
+    .mouseout(function () {
+      $("#nairobi-bridge-overlay").hide();
+    });
+
+  $("#japan-bridge")
+    .mouseover(function () {
+      $("#japan-bridge-overlay").show();
+    })
+    .mouseout(function () {
+      $("#japan-bridge-overlay").hide();
+    });
+
+  $("#china-bridge")
+    .mouseover(function () {
+      $("#china-bridge-overlay").show();
+    })
+    .mouseout(function () {
+      $("#china-bridge-overlay").hide();
+    });
+
+  $("#mexico-bridge")
+    .mouseover(function () {
+      $("#mexico-bridge-overlay").show();
+    })
+    .mouseout(function () {
+      $("#mexico-bridge-overlay").hide();
+    });
 };
 
 function toggleDesign() {
